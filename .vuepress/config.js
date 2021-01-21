@@ -8,11 +8,11 @@ module.exports = {
     subNav: [],
     nav: [
       { text: '🏠 Home', link: '/' },
-      { text: '📖 Theme', link: '/categories/theme/' },
+      /*{ text: '📖 Theme', link: '/categories/theme/' },
       { text: '🐉 Maker', link: '/categories/maker/' },
       { text: '🔥 Animation', link: '/categories/animation/' },
       { text: '📽 Old Time', link: '/categories/oldtime/' },
-      { text: '🔗 friend-links', link: '/friend-links/' },
+      { text: '🔗 friend-links', link: '/friend-links/' },*/
     ],
     searchPlaceholder: 'Search',
     searchMaxSuggestions: 10,
@@ -35,7 +35,7 @@ module.exports = {
       }
     ],
     copyright: '© 2020 ❤️ <a target="_blank" href="https://17ria.com/">Neil Chen</a>'
-  },
+  },*/
   plugins: [
     ['@vuepress/search', {
       searchMaxSuggestions: 10
@@ -75,7 +75,7 @@ module.exports = {
             lengthPerPage: 10
           }
         }
-      ],
+      ],/*
       sitemap: {
         hostname: 'https://80shuo.com'
       },
