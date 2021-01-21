@@ -1,7 +1,7 @@
 module.exports = {
     base: "https://condescending-jang-4087d7.netlify.app/",
-    title: "My VuePress Project",
-    description: `A simple VuePress project deployed with ${PRODUCT_NAME}.`,
+    title: "zhihaofans",
+    description: `A simple VuePress blog.`,
     port: 8080,
     theme: "vuepress-theme-maker",
     markdown: {
