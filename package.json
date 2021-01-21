@@ -8,5 +8,8 @@
     "docs:build": "vuepress build docs"
   },
   "repository": "git@github.com:zhihaofans/Vuepress-demo.git",
-  "author": "zhihaofans <zhihaofans@hotmail.com>"
+  "author": "zhihaofans <zhihaofans@hotmail.com>",
+  "devDependencies": {
+    "vuepress": "^1.8.0"
+  }
 }
