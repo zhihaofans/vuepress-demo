@@ -1,6 +1,8 @@
+
+
+
 module.exports = {
-    base: "https://condescending-jang-4087d7.netlify.app/",
-    title: "zhihaofans",
+    title: "zhihaofans"
     description: `A simple VuePress blog.`,
     port: 8080,
     theme: "vuepress-theme-maker",
@@ -63,7 +65,10 @@ module.exports = {
                             lengthPerPage: 10
                         }
                     }
-                ]
+                ],
+                sitemap: {
+                    hostname: "https://condescending-jang-4087d7.netlify.app"
+                }
             }
         ]
     ]
