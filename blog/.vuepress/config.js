@@ -2,7 +2,7 @@
 
 
 module.exports = {
-    title: "zhihaofans"
+    title: "zhihaofans",
     description: `A simple VuePress blog.`,
     port: 8080,
     theme: "vuepress-theme-maker",
