@@ -10,6 +10,7 @@
   "repository": "git@github.com:zhihaofans/Vuepress-demo.git",
   "author": "zhihaofans <zhihaofans@hotmail.com>",
   "devDependencies": {
-    "vuepress": "^1.8.0"
+    "vuepress": "^1.8.0",
+    "vuepress-theme-maker": "^0.2.4"
   }
 }
