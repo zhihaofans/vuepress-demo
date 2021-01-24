@@ -15,7 +15,7 @@ module.exports = {
             "markdown-it-task-lists": true
         }
     },
-    theme: "vuepress-theme-reco",
-    themeConfig: require('./config/themeConfigReco'),
+    theme: "vuepress-theme-maker",
+    themeConfig: require('./config/themeConfigMaker'),
     plugins: require('./config/plugins')
 };
