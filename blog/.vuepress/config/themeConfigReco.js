@@ -1,22 +1,18 @@
 module.exports = {
-  siteName: 'zhihaofans',
-  //logo: '/logo.jpg',
-  subNav: [],
-  siteDesc: 'The blog',
-  nav: [
-    { text: '🏠 Home', link: '/' },
-  ],
-  searchPlaceholder: 'Search',
-  searchMaxSuggestions: 10,
-  social: [
-    {
-      type: 'github',
-      link: 'zhihaofans/vuepress-demo'
-    },
-    {
-      type: 'feed',
-      link: '/rss.xml'
+  blogConfig: {
+      type: 'blog',
+      author: 'zhihaofans',
+      subSidebar: 'auto',
+      category: {
+          location: 2,
+          text: 'Category'
+      },
+      tag: {
+          location: 3,
+          text: 'Tag'
+      },
+      socialLinks: [
+      { icon: 'reco-github', link: 'https://github.com/zhihaofans' }
+      ]
     }
-  ],
-  copyright: '© 2021 ❤️ <a target="_blank" href="/">zhihaofans</a>'
 }
