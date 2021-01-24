@@ -11,9 +11,7 @@
   "author": "zhihaofans <zhihaofans@hotmail.com>",
   "devDependencies": {
     "vuepress": "^1.8.0",
-    "vuepress-theme-maker": "^0.2.4"
-  },
-  "dependencies": {
+    "vuepress-theme-maker": "^0.2.4",
     "vuepress-theme-reco": "^1.6.1"
   }
 }
