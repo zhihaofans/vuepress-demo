@@ -2,7 +2,6 @@ module.exports = {
     title: "zhihaofans",
     description: `A simple VuePress blog.`,
     port: 8080,
-    theme: "vuepress-theme-maker",
     markdown: {
         lineNumbers: true,
         extractHeaders: ["h2", "h3", "h4"],
@@ -13,6 +12,7 @@ module.exports = {
             "markdown-it-task-lists": true
         }
     },
-    themeConfig: require('./config/themeConfig'),
+    theme: "vuepress-theme-reco",
+    themeConfig: require('./config/themeConfigReco'),
     plugins: require('./config/plugins')
 };
